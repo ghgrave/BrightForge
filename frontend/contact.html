@@ -1,0 +1,40 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Bright Forge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Contact Us</h1>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="inventory.html">Inventory</a>
+</nav>
+
+<!-- Form to add new widget -->
+<form id="widgetForm" enctype="multipart/form-data">
+    <label for="name">Widget Name:</label>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="color">Color:</label>
+    <select id="color" name="color">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="black">Black</option>
+        <option value="clear">Clear</option>
+    </select><br>
+
+    <input type="checkbox" id="uploadToggle" name="uploadToggle">
+    <label for="uploadToggle">Upload a File:</label>
+    <input type="file" id="file" name="file"><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<script src="js/index.js"></script>
+</body>
+</html>
